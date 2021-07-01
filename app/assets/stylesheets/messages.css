@@ -1,0 +1,136 @@
+.chat-top {
+  display: flex;
+}
+/* サイドバー */
+.side-main {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+.side-header {
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.chat-create {
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+.room-name {
+  padding: 20px 0 40px;
+}
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+/* チャット */
+.chat-main {
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+.chat-header {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chat-room-name {
+  font-size: 24px;
+  color: #333;
+}
+.chat-end {
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.chat-space {                               /* カリキュラムではmessages チャット欄 */
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+.message-box {                               /* カリキュラムではmessage チャットのひとくくり */
+  margin: 10px 0 0 0;
+}
+.name-and-date {                             /* カリキュラムではupper-message 名前と日付のボックス */
+  display: flex;
+}
+.message-user {                              /* 名前部分 */
+  color: #434a54;
+  font-size: 16px;
+}
+.message-date {                              /* 投稿日時部分 */
+  color:  #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.message-bottom {                             /* 本文部分のひとくくり */
+  margin-top: 10px;
+}
+.message-content {                            /* テキストの投稿内容部分 */
+  color: #434154;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.chat-footer {                                /* フッター部分まとめ */
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+.form-input {                                 /* フォーム部分 */
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.text-box {                                   /* カリキュラムではform-messages */
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.send-btn {                                    /* カリキュラムではform-submit */
+  background-color: #38AEF0;
+  color: white;
+  border: none;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
