@@ -9,36 +9,7 @@
   </div>
 
   <div class="chat-space">
-    <div class="message-box">
-      <div class="name-and-date">
-        <div class="message-user">
-          tom
-        </div>
-        <div class="message-date">
-          2020/3/31(Wed) 12:43:30
-        </div>
-      </div>
-      <div class="message-bottom">
-        <div class="message-content">
-        こんちゃ
-        </div>
-      </div>
-    </div>
-      <div class="message-box">
-      <div class="name-and-date">
-        <div class="message-user">
-          tom
-        </div>
-        <div class="message-date">
-          2020/3/31(Wed) 12:43:30
-        </div>
-      </div>
-      <div class="message-bottom">
-        <div class="message-content">
-        こんちゃ
-        </div>
-      </div>
-    </div>
+   <%= render partial: 'message', collection: @messages %>
   </div>
 
 
