@@ -99,6 +99,7 @@
   padding: 20px 40px;
   display: flex;
 }
+
 .form-input {                                 /* フォーム部分 */
   background-color: white;
   width: 100%;
@@ -123,7 +124,6 @@
 .hidden {
   display: none;
 }
-
 .send-btn {                                    /* カリキュラムではform-submit */
   background-color: #38AEF0;
   color: white;
