@@ -124,7 +124,6 @@
 .hidden {
   display: none;
 }
-
 .send-btn {                                    /* カリキュラムではform-submit */
   background-color: #38AEF0;
   color: white;
